@@ -27,5 +27,16 @@
   src: local('WorkSans-Regular'), url(./fonts/WorkSans-Regular.ttf) format('truetype');
 }
 
+h1 {
+  font-family: 'YesevaOne-Regular';
+}
+
+body {
+  font-family: 'WorkSans-Regular';
+  margin: 0;
+  color: rgba(33, 18, 4);
+  background-color:rgba(222, 226, 223);
+}
+
 
 
