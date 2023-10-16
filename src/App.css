@@ -90,4 +90,12 @@ footer {
   gap: 3rem;
 }
 
+.content {
+  height: 100%;
+  display: grid;
+  grid-template-areas: 'info myphoto'
+                        'exp expdiag'
+                        'pf .';
+}
+
 
