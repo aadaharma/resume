@@ -58,4 +58,36 @@ footer {
   color: rgba(220, 220, 221);
 }
 
+.nav {
+  position: sticky;
+  align-self: flex-start;
+  top: 0;
+  background-color: rgba(68, 89, 77);
+  height: 70px;
+  color: rgba(220, 220, 221);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  padding: 0 1rem;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.nav a:hover {
+  border-style: groove;
+  box-shadow: inset 300px 0 0 0 rgba(220, 220, 221);
+  color: rgb(33, 38, 45);
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
 
