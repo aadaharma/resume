@@ -98,4 +98,36 @@ footer {
                         'pf .';
 }
 
+#info {
+  border-style: solid;
+  grid-area: info;
+  max-width: 800px;
+  height: 400px;
+}
+
+#photo {
+  border-style: solid;
+  grid-area: myphoto;
+  justify-content: center;
+  align-content: right;
+}
+
+#work {
+  border-style: solid;
+  grid-area: pf;
+  height: 700px;
+}
+
+#exp {
+  border-style: solid;
+  grid-area: exp;
+  height: 300px;
+}
+
+#expdiag {
+  border-style: solid;
+  height: 300px;
+  grid-area: expdiag;
+}
+
 
