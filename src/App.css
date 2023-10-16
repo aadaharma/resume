@@ -44,5 +44,10 @@ section {
   justify-content: space-around;
 }
 
+aside {
+  padding: 20px;
+  border-color: rgba(33, 18, 4);
+  justify-content: space-around;
+}
 
 
