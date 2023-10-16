@@ -1,16 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import ContactInfo from './pages/ContactInfo';
+import Navbar from './components/navbar/navbar';
 
 export default function App() {
   return (
-    <Routes>
-      <Route exact path="/" element={<HomePage/>} />
-      <Route path="/:id" element={<ContactInfo/>} />
-    </Routes>
-  )
+    <>
+    <main>
+      <div id='container' className='container'>
+      <Navbar />
+      <div id='content' className='content'>
+      </div>  
+      </div>
+    </main>
+    <footer>
+        <p>reach out: </p>
+    </footer>     
+   </>
+  );
 }
-
-
