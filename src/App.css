@@ -38,5 +38,11 @@ body {
   background-color:rgba(222, 226, 223);
 }
 
+section {
+  padding: 20px;
+  border-color: rgba(33, 18, 4);
+  justify-content: space-around;
+}
+
 
 
