@@ -3,6 +3,11 @@
 }
 
 @font-face {
+  font-family: 'Nunito-Bold';
+  src: local('Nunito-Bold'), url(./fonts/Nunito-Bold.ttf) format('truetype');
+}
+
+@font-face {
   font-family: 'KronaOne-Regular';
   src: local('KronaOne-Regular'), url(./fonts/KronaOne-Regular.ttf) format('truetype');
 }
@@ -29,10 +34,12 @@
 
 h1 {
   font-family: 'YesevaOne-Regular';
+  color:steelblue
 }
 
 body {
   font-family: 'WorkSans-Regular';
+  font-size: 20px;
   margin: 0;
   color: rgba(33, 18, 4);
   background-color:rgba(222, 226, 223);
@@ -64,7 +71,6 @@ footer {
   position: sticky;
   align-self: flex-start;
   top: 0;
-  background-color: rgba(68, 89, 77);
   height: 70px;
   display: flex;
   justify-content: space-between;
@@ -74,6 +80,7 @@ footer {
 }
 
 .title {
+  margin-left: 2rem;
   font-size: 30px;
   color: inherit;
 }
@@ -89,24 +96,25 @@ footer {
 }
 
 .nav ul {
-  padding: 0;
+  padding: 2rem;
   margin: 0;
   list-style: none;
   display: flex;
   gap: 3rem;
+  font-size: 20px;
 }
 
 .content {
   height: fit-content;
   max-width: fit-content;
   display: grid;
-  grid-template-areas: 'info myphoto'
+  grid-template-areas: 'myphoto info'
                         'exp expdiag'
                         'pf .';
 }
 
 #info {
-  border-style: solid;
+  margin-top: 25px;
   grid-area: info;
   width: 800px;
   height: auto;
@@ -118,30 +126,28 @@ footer {
 
 .portrait {
   display: block;
-  max-width: 80%;
+  max-width: 90%;
   height: auto;
   border-radius:60%;
   border-style: double;
   border-width: 0.5rem;
   margin-left: auto;
   margin-right: auto;
-  border-color: rgba(68, 89, 77)
+  border-color: steelblue;
 }
 
 #work {
-  border-style: solid;
   grid-area: pf;
+  padding-top: 50px;
   height: 700px;
 }
 
 #exp {
-  border-style: solid;
   grid-area: exp;
   height: 300px;
 }
 
 #expdiag {
-  border-style: solid;
   height: 300px;
   grid-area: expdiag;
 }
