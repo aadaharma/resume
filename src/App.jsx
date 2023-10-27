@@ -8,7 +8,6 @@ export default function App() {
       <div id='container' className='container'>
       <Navbar />
       <div id='content' className='content'>
-      </div>  
       <section id= 'info' className='info'>
           <h1>Important info</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -18,7 +17,7 @@ export default function App() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d</p>
         </section>
         <aside id= 'photo'>
-          <img src='/placeholder.jpeg' alt='placeholder' width='400' height='400'></img>
+          <img className='portrait' src='/resumepic.JPG' alt='portrait of Aada'></img>
         </aside>
         <aside id='expdiag'>
           <p>Here maybe experience circle diagrams</p>
@@ -27,6 +26,7 @@ export default function App() {
           <h1>Portfolio?</h1>
           <p>Woopswoops</p>
       </section>
+      </div>  
       </div>
     </main>
     <footer>
