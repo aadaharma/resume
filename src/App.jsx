@@ -30,7 +30,10 @@ export default function App() {
       </div>
     </main>
     <footer>
-        <p>reach out: </p>
+        <p>reach out:</p>
+        <p> aada.harma@tuni.fi</p>
+        <p>LinkedIn: Aada Härmä</p>
+        <a href='https://github.com/aadaharma'>GitHub</a>
     </footer>     
    </>
   );
