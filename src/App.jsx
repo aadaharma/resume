@@ -10,7 +10,12 @@ export default function App() {
       <div id='content' className='content'>
       <section id= 'info' className='info'>
           <h1>Hi, I am Aada. Nice to meet you!</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>I study Information Technology at Tampere University, and am passionate about all things engineering and literature. 
+        After finishing upper secondary school I took some introductory engineering courses at open university - one of them happened to be Programming 1. 
+        I was immediately captivated. A second programming course solidified my decision to apply to study Information Technology. </p>
+        
+        <p>My interests include cloud engineering, testing software and game development. Gaming is one of my dearest hobbies, and learning to program games myself has been rewarding. 
+        Aside from tech, I enjoy hiking and volunteering at a children's church.</p>
         </section>
         <section id='exp'>
           <h1>My work experience</h1>

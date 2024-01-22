@@ -49,6 +49,7 @@ section {
   padding: 20px;
   border-color: rgba(33, 18, 4);
   justify-content: space-around;
+  line-height: 1.6;
 }
 
 aside {
