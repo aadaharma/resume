@@ -127,9 +127,16 @@ a:visited {
   height: fit-content;
   max-width: fit-content;
   display: grid;
-  grid-template-areas: 'myphoto info'
+  grid-template-areas:  'hello myphoto'
+                        'info .'
                         'exp expdiag'
                         'pf .';
+}
+
+.hello {
+  width: 800px;
+  height: auto;
+  grid-area: hello;
 }
 
 #info {

@@ -8,6 +8,9 @@ export default function App() {
       <div id='container' className='container'>
       <Navbar />
       <div id='content' className='content'>
+      <section id = 'start' className = 'start'>
+      <img className='hello' src='/ohhello.PNG' alt='text: Oh, Hello!'></img>
+      </section>
       <section id= 'info' className='info'>
           <h1>Hi, I am Aada. Nice to meet you!</h1>
           <p>I study Information Technology at Tampere University, and am passionate about all things engineering and literature. 
