@@ -9,14 +9,12 @@ export default function App() {
       <Navbar />
       <div id='content' className='content'>
       <section id = 'start' className = 'start'>
-      <img className='hello' src='/ohhello.PNG' alt='text: Oh, Hello!'></img>
+      <img className='hello' src='/feathered_ohhello.png' alt='text: Oh, Hello!'></img>
       </section>
       <section id= 'info' className='info'>
           <h1>Hi, I am Aada. Nice to meet you!</h1>
-          <p>I study Information Technology at Tampere University, and am passionate about all things engineering and literature. 
-        After finishing upper secondary school I took some introductory engineering courses at open university - one of them happened to be Programming 1. 
-        I was immediately captivated. A second programming course solidified my decision to apply to study Information Technology. </p>
-        
+          <p>I study Information Technology at Tampere University, my major being telecommunications and minor software engineering.
+           </p>        
         <p>My interests include cloud engineering, testing software and game development. Gaming is one of my dearest hobbies, and learning to program games myself has been rewarding. 
         Aside from tech, I enjoy hiking and volunteering at a children's church.</p>
         </section>
